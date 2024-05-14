@@ -1,0 +1,103 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-size: 50px;
+  background-image: url(img/hd13.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+
+
+
+
+
+
+
+  
+
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+/* .....navbar......menu posisionado parte superior,
+ todo lo que el usuario puede ver */
+
+/* top """""(0)"""""""es para decir que se quede arriba el """""MENU"""*/
+/* """"stiky"" traduce .......pegajoso.....*/
+.navbar {
+  background: hsl(44, 100%, 64%);
+  position: sticky;
+  top: auto;
+  
+}
+
+.navbar a {
+  color: #fff;
+  display: inline-block;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  transition: 0.5s ease-out all;
+}
+
+.navbar a:hover {
+  background: #1d2f3d;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 200%;
+}
+
+.titulo1{
+  text-align: center; 
+  font-size: 50px;
+  padding-top: 50px;
+  color: hsl(44, 100%, 64%);
+  
+  
+}
+
+.estadisticas{
+  display: flex;
+  justify-content:center;
+}
+
+#parrafo{
+  font-size: 100%;
+  color: #fef2f2;
+  padding: 5%;
+  }
+
+  
+
+
+
+
+
+
